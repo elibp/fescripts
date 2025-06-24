@@ -1,0 +1,7 @@
+-- made by melonscripter.
+-- www.youtube.com/@MelonScripter
+-- in no way i am taking credit for this script.
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/elibp/fescripts/refs/heads/main/HorizonLC.lua"))()
+
+-- you can use the normal melonscripter version, this version lets you chat and see chats from others.

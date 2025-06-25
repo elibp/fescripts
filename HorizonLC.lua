@@ -1,9 +1,9 @@
 game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.Health, false)
 
 if replicatesignal then
-game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Reanimation"; Text = "Executor supported."; Icon = "rbxthumb://type=Asset&id=12203642851&w=150&h=150"})
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Success!"; Text = "Made by MelonScripter -- this guy <<<"; Icon = "rbxthumb://type=Asset&id=88461957728423&w=150&h=150"})
 else
-game:GetService("StarterGui"):SetCore("SendNotification", { Title = "Reanimation"; Text = "Executor is NOT supported."; Icon = "rbxthumb://type=Asset&id=12203642851&w=150&h=150"})
+game:GetService("StarterGui"):SetCore("SendNotification", { Title = ":( Failed"; Text = "Executor does not support replicatesignal."; Icon = "rbxthumb://type=Asset&id=11161636113&w=150&h=150"})
 print("Android - FrostWare, Nebula, Delta")
 print("iOS - Delta")
 print("Windows - Synapse Z")

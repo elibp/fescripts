@@ -1,4 +1,9 @@
--- Krystal Dance V3, Made by Hemi (its very janky)
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/somethingsimade/CurrentAngleV4/refs/heads/main/currentanglev2.5.lua"))()
+end)
+
+repeat task.wait() until finished
+
 if not isfolder("Dances") then 
     makefolder("Dances")
     end
